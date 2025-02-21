@@ -1,5 +1,5 @@
 import express from "express";
-import { loanModel } from "../models/loan.js";
+import { loanModel } from "../models/Loan.js";
 import { authenticateToken } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
